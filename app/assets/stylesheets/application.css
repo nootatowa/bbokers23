@@ -13,3 +13,36 @@
  *= require_tree .
  *= require_self
  */
+/*@media screen and (min-width:960px){*/
+/*　main {font-size: 16px; }  */
+/*}*/
+
+
+.top {
+  text-align: center;
+}
+
+h2 {
+  width: 1000px;
+  height: 70px;
+  font-size: 20px;
+  margin: 20px auto;
+}
+
+/* タブレット*/
+@media (max-width: 1024px) {
+  h2 {
+    width: 800px;
+    font-size: 18px;
+    color: blue;
+  }
+}
+
+/* スマホ */
+@media (max-width: 599px) {
+  h2 {
+    width: 500px;
+    font-size: 15px;
+    color: red;
+  }
+}
